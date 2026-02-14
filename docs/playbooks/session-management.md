@@ -4,7 +4,7 @@ This playbook defines the shared session workflow for Sheffler project repositor
 
 ## Required Sync Check
 At session start, verify standards sync freshness before planning/coding:
-- Run `scripts/sync-standards.sh`.
+- Run `shared/sheffler_standards/scripts/sync-standards.sh`.
 - Confirm `.standards-last-sync` exists in repo root.
 - Review `.standards-version` if present.
 
@@ -18,7 +18,7 @@ When the user says `Start session`, do all of the following:
    - Primary goal
    - Stretch goal
    - Expected evidence (commits/screenshots/notes)
-2. Run or confirm `scripts/sync-standards.sh` and record sync status.
+2. Run or confirm `shared/sheffler_standards/scripts/sync-standards.sh` and record sync status.
 3. Create a dated session log in `docs/session-logs/`.
 4. Add an initial `Next Session Draft` or current-session focus update in `docs/curriculum.md`.
 
@@ -54,7 +54,7 @@ A session is considered done when all are true:
 ## Reminder Protocol
 If workflow is not being followed, provide gentle reminders:
 - If coding starts before `Start session`, remind to start the session log.
-- At/near start of session, if standards sync has not been run, remind to run `scripts/sync-standards.sh`.
+- At/near start of session, if standards sync has not been run, remind to run `shared/sheffler_standards/scripts/sync-standards.sh`.
 - If `.standards-last-sync` is stale/missing, remind to refresh standards.
 - Mid-session after substantial work, remind to capture evidence.
 - Before wrapping up, remind to run `End session`.

@@ -34,7 +34,7 @@ Use:
 - `shared/sheffler_standards/docs/playbooks/session-management.md`
 
 Mandatory at session start:
-- Run/confirm `scripts/sync-standards.sh`.
+- Run/confirm `shared/sheffler_standards/scripts/sync-standards.sh`.
 - Confirm `.standards-last-sync` exists and is recent.
 
 ## 6) Documentation Outputs
@@ -57,7 +57,7 @@ In coding summaries, include:
 
 ## 8) Shared Standards Integration
 - `sheffler_standards` is the source of truth for shared policy/templates/playbooks.
-- Sync into subprojects with `scripts/sync-standards.sh`.
-- Synced files are placed under `shared/sheffler_standards/docs/`.
+- Sync into subprojects with `shared/sheffler_standards/scripts/sync-standards.sh`.
+- Synced files are placed under `shared/sheffler_standards`.
 - Do not edit synced shared files directly in subprojects.
 - Keep project-specific instructions in local `AGENTS.md` and local docs.

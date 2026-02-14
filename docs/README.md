@@ -7,22 +7,28 @@ Shared standards, templates, and playbooks for Sheffler project repositories.
 - `STANDARDS_VERSION`
 - `docs/templates/`
 - `docs/playbooks/`
+- `scripts/sync-standards.sh` (canonical sync script)
 
-## Usage in Subprojects
-Run:
+## One-Time Bootstrap in a Subproject
+From project root:
 
 ```bash
-scripts/sync-standards.sh
+mkdir -p shared
+git clone --depth 1 --branch main https://github.com/willsheffler/sheffler_standards.git shared/sheffler_standards
 ```
 
-This clones/updates standards into:
-- `shared/sheffler_standards/`
+## Regular Sync in a Subproject
+From project root:
+
+```bash
+shared/sheffler_standards/scripts/sync-standards.sh
+```
 
 Reference shared docs from:
 - `shared/sheffler_standards/docs/...`
 
 ## Session Sync Metadata
-Subproject sync scripts write:
+Sync writes:
 - `.standards-version`
 - `.standards-last-sync`
 
