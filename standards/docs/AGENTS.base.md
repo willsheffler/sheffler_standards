@@ -47,6 +47,10 @@ Maintain these paths in each project:
 - Monthly report: `docs/reports/<YYYY-MM>.md`
 - ADRs: `docs/decisions/ADR-<NNNN>-<slug>.md`
 
+For living docs (`docs/curriculum.md`, active files in `docs/specs/`, and monthly reports):
+- Include `Last updated: YYYY-MM-DD` near the top.
+- Refresh that date whenever content is materially changed.
+
 ## 7) Communication Expectations
 In coding summaries, include:
 - What changed

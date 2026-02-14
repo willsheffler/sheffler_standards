@@ -1,6 +1,7 @@
 # <Feature> Spec (Draft)
 
 Date: <YYYY-MM-DD>  
+Last updated: <YYYY-MM-DD>  
 Status: draft
 
 ## Purpose

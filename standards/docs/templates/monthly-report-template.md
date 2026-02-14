@@ -1,5 +1,7 @@
 # Monthly Report - <YYYY-MM>
 
+Last updated: <YYYY-MM-DD>
+
 ## Summary
 - 
 

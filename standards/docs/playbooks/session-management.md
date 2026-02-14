@@ -10,6 +10,11 @@ At session start, verify standards sync freshness before planning/coding:
 
 If `.standards-last-sync` is missing or older than 7 days, run sync and note it in session log.
 
+## Curriculum Role
+- `docs/curriculum.md` is the living learning roadmap for the project.
+- It is not a session transcript; session details belong in `docs/session-logs/`.
+- Keep `Current Focus`, `Next Session Draft`, and `Completed Milestones` updated after each session.
+
 ## Session Start Protocol
 When the user says `Start session`, do all of the following:
 1. Ask for:
@@ -21,6 +26,7 @@ When the user says `Start session`, do all of the following:
 2. Run or confirm `shared/sheffler_standards/scripts/sync-standards.sh` and record sync status.
 3. Create a dated session log in `docs/session-logs/`.
 4. Add an initial `Next Session Draft` or current-session focus update in `docs/curriculum.md`.
+5. Ensure `Last updated: YYYY-MM-DD` is current in any living docs changed during the session.
 
 ## Will-Only Planning Sessions
 When participants are Will-only:

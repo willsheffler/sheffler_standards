@@ -1,8 +1,12 @@
-# sheffler_standards
+# sheffler_standards (synced content)
 
-Shared standards, templates, and playbooks for Sheffler project repositories.
+This directory contains the standards content synced into project repositories.
 
-## Contents
+## Source Repo Layout
+- `standards/` -> synced into project `shared/sheffler_standards/`
+- `logs/` -> standards-project logs only, not synced
+
+## Synced Contents
 - `docs/AGENTS.base.md`
 - `STANDARDS_VERSION`
 - `docs/templates/`
@@ -15,17 +19,14 @@ From project root:
 ```bash
 mkdir -p shared
 git clone --depth 1 --branch main https://github.com/willsheffler/sheffler_standards.git shared/sheffler_standards
+shared/sheffler_standards/standards/scripts/sync-standards.sh
 ```
 
-## Regular Sync in a Subproject
-From project root:
+After first sync, use:
 
 ```bash
 shared/sheffler_standards/scripts/sync-standards.sh
 ```
-
-Reference shared docs from:
-- `shared/sheffler_standards/docs/...`
 
 ## Session Sync Metadata
 Sync writes:
@@ -33,8 +34,3 @@ Sync writes:
 - `.standards-last-sync`
 
 Use `.standards-last-sync` during session start checks.
-
-## Synced File Ownership
-- Files under `shared/sheffler_standards/` in subprojects are synced/shared inputs.
-- Do not edit those files directly in subprojects.
-- Put project-specific overrides in local project files.
