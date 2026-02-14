@@ -1,5 +1,7 @@
 # Session Log - Standards Architecture Migration
 
+> Note (2026-02-14 update): This historical log includes earlier path/metadata references (for example `.standards-version` and `shared/sheffler_standards/standards/scripts/sync-standards.sh`) that were later simplified. Current source of truth is in `standards/docs/` and current runtime sync command is `shared/sheffler_standards/scripts/sync-standards.sh`.
+
 Date: 2026-02-14  
 Participants: Will + AI assistant  
 Primary goal: Consolidate shared standards workflow across multiple repos and reduce duplication/drift.  

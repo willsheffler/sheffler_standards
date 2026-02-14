@@ -14,12 +14,11 @@ This directory contains the standards content synced into project repositories.
 - `scripts/sync-standards.sh` (canonical sync script)
 
 ## One-Time Bootstrap in a Subproject
-From project root:
+From project root (download only the bootstrap sync script and run it):
 
 ```bash
-mkdir -p shared
-git clone --depth 1 --branch main https://github.com/willsheffler/sheffler_standards.git shared/sheffler_standards
-shared/sheffler_standards/standards/scripts/sync-standards.sh
+curl -fsSL https://raw.githubusercontent.com/willsheffler/sheffler_standards/main/standards/scripts/sync-standards.sh -o /tmp/sync-standards.sh
+bash /tmp/sync-standards.sh
 ```
 
 After first sync, use:
@@ -30,7 +29,12 @@ shared/sheffler_standards/scripts/sync-standards.sh
 
 ## Session Sync Metadata
 Sync writes:
-- `.standards-version`
+
 - `.standards-last-sync`
 
 Use `.standards-last-sync` during session start checks.
+
+## Standards Proposal Process
+- In project/teaching repos, capture proposed shared-standards changes in project docs (for example `docs/standards-proposals.md`).
+- Use `shared/sheffler_standards/docs/templates/standards-proposal-template.md`.
+- Resolve and implement proposals during Standards Governance Sessions in `sheffler_standards`.

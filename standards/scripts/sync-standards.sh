@@ -36,11 +36,6 @@ cp -R "${SRC_DIR}"/. "${DEST_DIR}"/
 
 echo "synced standards content: ${DEST_DIR}"
 
-if [[ -f "${DEST_DIR}/STANDARDS_VERSION" ]]; then
-  cp "${DEST_DIR}/STANDARDS_VERSION" "${REPO_ROOT}/.standards-version"
-  echo "synced: .standards-version"
-fi
-
 STAMP_UTC="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 COMMIT_SHA="$(git -C "${TEMP_DIR}/sheffler_standards" rev-parse --short HEAD 2>/dev/null || echo unknown)"
 {

@@ -33,6 +33,11 @@ Detailed procedures belong in shared playbooks.
 Use:
 - `shared/sheffler_standards/docs/playbooks/session-management.md`
 
+Session type defaults:
+- Default to Project Session unless `sheffler_standards/.git` is present alongside project repos.
+- In Project Sessions, use standards proposals instead of direct standards edits.
+- In Standards Governance Sessions, integrate and resolve queued standards proposals.
+
 Mandatory at session start:
 - Run/confirm `shared/sheffler_standards/scripts/sync-standards.sh`.
 - Confirm `.standards-last-sync` exists and is recent.
