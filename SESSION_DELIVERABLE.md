@@ -40,6 +40,16 @@ What to work on next time. Keep it to 1-2 concrete goals.
 - The quiz and challenge reinforce learning
 - Screenshots make progress visible and satisfying
 
+## Light deliverables
+
+For short sessions (under 30 minutes) or messy exploratory sessions where a full deliverable would be forced, a light deliverable is fine:
+
+1. **Summary** — what we worked on (2-3 sentences)
+2. **What we did** — bullet list of concrete things
+3. **Next plan** — what to do next time
+
+Skip the screenshots, quiz, and challenge for light deliverables. A light deliverable is better than no deliverable.
+
 ## Timing
 
-Produce the deliverable at the end of each session, not as an afterthought days later. Budget the last 10-15 minutes of each session for it.
+Produce the deliverable at the end of each session, not as an afterthought days later. Budget the last 10-15 minutes for a full deliverable, or 5 minutes for a light one.
