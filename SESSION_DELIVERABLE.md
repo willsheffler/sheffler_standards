@@ -1,0 +1,45 @@
+# Session Deliverable
+
+**Every session must produce a deliverable.** This is the single most important rule.
+
+The deliverable goes in `docs/session-logs/YYYY-MM-DD.md` using the template in `templates/session-log.md`.
+
+## What the deliverable must include
+
+### 1. Summary (2-3 sentences)
+What was worked on and what was accomplished.
+
+### 2. What was built or changed
+Concrete list of features, fixes, or progress. Be specific.
+
+### 3. Annotated screenshots
+At least 2-3 screenshots showing evidence of what was built. Each screenshot should have a brief caption explaining what it shows. Save screenshots to `docs/session-logs/assets/YYYY-MM-DD/`.
+
+If the project has a visual component (game, web page), screenshots are mandatory. If it's purely code, show terminal output or test results instead.
+
+### 4. Short quiz (2-4 questions)
+Quick check that the student understood the concepts from this session. Questions should be:
+- About what was actually built, not abstract theory
+- Answerable in one sentence
+- Include the answers (collapsed or at the bottom)
+
+Example:
+> Q: What does `addEventListener('click', handler)` do?
+> A: It tells the browser to run the `handler` function whenever the element is clicked.
+
+### 5. Student coding challenge (optional but encouraged)
+A small task the student can try on their own before next session. Should take 5-15 minutes and build on what was learned.
+
+### 6. Next session plan
+What to work on next time. Keep it to 1-2 concrete goals.
+
+## Why this matters
+
+- Dad (Will) reviews these to track progress and engagement
+- They create a record the student can look back on
+- The quiz and challenge reinforce learning
+- Screenshots make progress visible and satisfying
+
+## Timing
+
+Produce the deliverable at the end of each session, not as an afterthought days later. Budget the last 10-15 minutes of each session for it.
